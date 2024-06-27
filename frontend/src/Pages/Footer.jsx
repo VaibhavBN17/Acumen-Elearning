@@ -9,7 +9,7 @@ const Footer = () => {
       paddingBottom={{
         sm: "60px",
         md: "60px",
-        lg: "20px",
+        lg: "20px"
       }}
       fontFamily="Source Sans 3"
       pt="60px"
