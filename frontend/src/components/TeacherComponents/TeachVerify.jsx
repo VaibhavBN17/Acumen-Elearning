@@ -65,7 +65,7 @@ const TeachVerify = () => {
         </FormControl>
         <Box textAlign="center" mt={4}>
         <Button
-              bg="#0056d2"
+              bg="#f57003"
               color="white"
               borderRadius="5px"
               _hover={{ bg: "#003e9c" }}

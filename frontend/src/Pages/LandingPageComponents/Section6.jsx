@@ -52,7 +52,7 @@ const Section6 = () => {
             lg: "45 px",
           }}
         >
-          Learner outcomes on <b style={{ color: "#0056d2" }}>ACUMEN</b>
+          Learner outcomes on <b style={{ color: "#f57003" }}>ACUMEN</b>
         </Text>
         <Text
           fontFamily={"poppins"}
@@ -69,8 +69,8 @@ const Section6 = () => {
         </Text>
         <Flex mt='15px' >
           <Button
-            bgColor={"#0056d2"}
-            _hover={{ backgroundColor: "#03357b" }}
+            bgColor={"#f57003"}
+            _hover={{ backgroundColor: "#f74803" }}
             color={"white"}
             p={{
               sm: "10px 20px",

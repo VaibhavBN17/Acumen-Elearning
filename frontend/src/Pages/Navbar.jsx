@@ -51,7 +51,7 @@ const Navbar = () => {
             <Text
               fontSize={30}
               fontWeight="extrabold"
-              color="#0056d2"
+              color="#f57003"
               onClick={home}
               _hover={{ cursor: "pointer" }}
             >
@@ -73,16 +73,16 @@ const Navbar = () => {
                 color="black"
                 placeholder="What do you want to learn?"
                 borderRadius="10px 0 0px 10px"
-                _placeholder={{ color: "#555454",letterSpacing:'1px' }}
+                _placeholder={{ color: "#555554",letterSpacing:'1px' }}
               />
             </Box>
             <IconButton
               aria-label="Search"
               icon={<FaSearch />}
-              bg="#0056d2"
+              bg="#f57003"
               color="white"
               borderRadius="0px 10px 10px 0px"
-              _hover={{ background: "#0288D1" }}
+              _hover={{ background: "#f74803" }}
             />
           </Flex>
         ) : (
@@ -91,7 +91,7 @@ const Navbar = () => {
               aria-label="Menu"
               icon={<FaBars />}
               bg="transparent"
-              color="#0056d2"
+              color="#f57003"
               onClick={onOpen}
               fontSize="2xl"
               mr={2}
@@ -137,17 +137,17 @@ const Navbar = () => {
               </Link>
             </Box>
             <Box mr={4}>
-              <Link textDecoration="none" color="#0056d2" href="/login">
+              <Link textDecoration="none" color="#f57003" href="/login">
                 Login
               </Link>
             </Box>
 
             {/* Join for Free Button */}
             <Button
-              bg="#0056d2"
+              bg="#f57003"
               color="white"
               borderRadius="5px"
-              _hover={{ bg: "#003e9c" }}
+              _hover={{ bg: "#f74803" }}
               onClick={signup}
             >
               Join for free
