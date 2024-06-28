@@ -1,4 +1,4 @@
-# Elearning-Platform-Using-MERN
+# Acumen E Learning Application
 Software Engineering Course Project
 
 ## Description
