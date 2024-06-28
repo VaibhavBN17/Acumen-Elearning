@@ -153,7 +153,7 @@ const Navbar = () => {
                     borderRadius="7px"
                     bg="#f57003"
                     onClick={handleShowSearchBar}
-                    _hover={{ backgroundColor: "#f74803", color: "white" }}
+                    _hover={{ backgroundColor: "#f74803", color: "orange" }}
                   />
                 )}
               </Box>
