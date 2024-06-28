@@ -57,7 +57,7 @@ const Card = ({ course, title, category, description, _id,img }) => {
         <Text fontSize="sm" mb={2} textTransform={"capitalize"}>
           {description.substring(0,80)}...
         </Text>
-        <Flex color="#0056d2" fontFamily={"poppins"} gap={2}>
+        <Flex color="#f57003" fontFamily={"poppins"} gap={2}>
           <Flex alignItems={"center"}>
             <FaGraduationCap />
           </Flex>

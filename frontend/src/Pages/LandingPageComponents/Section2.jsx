@@ -28,7 +28,7 @@ const Section2 = () => {
         }}
       >
         We collaborate with{" "}
-        <Link color="#0056d2" href="#" fontWeight="bold">
+        <Link color="#f57003" href="#" fontWeight="bold">
           300+ leading universities and companies
         </Link>
       </Text>

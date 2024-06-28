@@ -181,8 +181,8 @@ const Login = () => {
               <Button
                 w="100%"
                 color="white"
-                bg="#0056D2"
-                _hover={{ background: "#1E88E5", color: "#CFD8DC" }}
+                bg="#f57003"
+                _hover={{ background: "#f57003", color: "#CFD8DC" }}
                 borderRadius="0"
                 textAlign="center"
                 onClick={handleLogin}

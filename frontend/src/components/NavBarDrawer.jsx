@@ -106,7 +106,7 @@ export function NavBarDrawer({ isOpen, onClose }) {
                 textAlign="center"
                 fontSize={30}
                 fontWeight="extrabold"
-                color="#0056d2"
+                color="#f57003"
                 _hover={{ cursor: "pointer" }}
               >
                 ACUMEN
@@ -123,7 +123,7 @@ export function NavBarDrawer({ isOpen, onClose }) {
                   {userStore?.role === "admin" || userStore?.role==='teacher' ? (
                     <Flex alignItems={"center"}>
                       <Box>
-                        <FaUserShield size="2rem" color="#0056d2" />
+                        <FaUserShield size="2rem" color="#f57003" />
                         <Text fontSize="0.6rem" fontWeight="bold">
                           {capitalizeFirstLetter(userStore?.role)}
                         </Text>
@@ -134,7 +134,7 @@ export function NavBarDrawer({ isOpen, onClose }) {
                     </Flex>
                   ) : userStore?.role === "user" ? (
                     <Flex alignItems={"center"}>
-                      <BiUserCircle size="2rem" color="#0056d2" />
+                      <BiUserCircle size="2rem" color="#f57003" />
                       <Heading size="sm" ml="1rem">
                         {capitalizeFirstLetter(userStore?.name)}
                       </Heading>
@@ -160,20 +160,20 @@ export function NavBarDrawer({ isOpen, onClose }) {
               >
                 <Link to="/login">
                   <Button
-                    bg="#0056d2"
+                    bg="#f57003"
                     color="white"
                     borderRadius="5px"
-                    _hover={{ bg: "#003e9c" }}
+                    _hover={{ bg: "#f74803" }}
                   >
                     LogIn
                   </Button>
                 </Link>
                 <Link to="/signup">
                   <Button
-                    bg="#0056d2"
+                    bg="#f57003"
                     color="white"
                     borderRadius="5px"
-                    _hover={{ bg: "#003e9c" }}
+                    _hover={{ bg: "#f74803" }}
                   >
                     Join for free
                   </Button>

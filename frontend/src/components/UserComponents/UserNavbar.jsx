@@ -64,7 +64,7 @@ const Navbar = () => {
             <Text
               fontSize={30}
               fontWeight="extrabold"
-              color="#0056d2"
+              color="#f57003"
               _hover={{ cursor: "pointer" }}
               onClick={home}
             >
@@ -92,7 +92,7 @@ const Navbar = () => {
             <IconButton
               aria-label="Search"
               icon={<FaSearch />}
-              bg="#0056d2"
+              bg="#f57003"
               color="white"
               borderRightRadius="7px"
               borderRadius="0px 10px 10px 0px"
@@ -104,7 +104,7 @@ const Navbar = () => {
               aria-label="Menu"
               icon={<FaBars />}
               bg="transparent"
-              color="#0056d2"
+              color="#f57003"
               fontSize="2xl"
               mr={2}
               onClick={onOpen}
@@ -138,7 +138,7 @@ const Navbar = () => {
                     <IconButton
                       aria-label="Search"
                       icon={<FaSearch />}
-                      bg="#0056d2"
+                      bg="#f57003"
                       onClick={handleShowSearchBar}
                       color="white"
                       borderRightRadius="7px"
@@ -151,9 +151,9 @@ const Navbar = () => {
                     icon={<FaSearch />}
                     color="white"
                     borderRadius="7px"
-                    bg="#0056d2"
+                    bg="#f57003"
                     onClick={handleShowSearchBar}
-                    _hover={{ backgroundColor: "#003e9c", color: "white" }}
+                    _hover={{ backgroundColor: "#f74803", color: "white" }}
                   />
                 )}
               </Box>

@@ -36,7 +36,7 @@ const Section1 = () => {
           }}
           fontWeight="semibold"
         >
-          <Text fontSize='2rem' color="#0056d2" display='inline'>ACUMEN</Text> Where Educators and Students Connect Seamlessly Online. Teachers craft personalized courses for various subjects and grades, while students explore and purchase courses tailored to their needs. Empowering both educators and learners, ACUMEN revolutionizes online education.
+          <Text fontSize='2rem' color="#f57003" display='inline'>ACUMEN</Text> Where Educators and Students Connect Seamlessly Online. Teachers craft personalized courses for various subjects and grades, while students explore and purchase courses tailored to their needs. Empowering both educators and learners, ACUMEN revolutionizes online education.
         </Text>
         <Flex
           gap={30}
@@ -48,7 +48,7 @@ const Section1 = () => {
           }}
         >
           <Button
-            bg="#0056d2"
+            bg="#f57003"
             color="white"
             size="lg"
             p={{
@@ -56,15 +56,15 @@ const Section1 = () => {
               md: "25px 50px",
               sm: "20px 40px",
             }}
-            border="3px solid #0056d2"
-            _hover={{ background: "#42A5F5", color: "#0D47A1" }}
+            border="3px solid #f57003"
+            _hover={{ background: "#f74803", color: "white" }}
             onClick={() => navigate("/signup")}
           >
             Join for Free
           </Button>
           <Button
-            colorScheme="#0056d2"
-            color="#0056d2"
+            colorScheme="#f57003"
+            color="#f57003"
             variant="outline"
             size="lg"
             p={{
@@ -72,7 +72,7 @@ const Section1 = () => {
               md: "25px 50px",
               sm: "20px 40px",
             }}
-            border="3px solid #0056d2"
+            border="3px solid #f57003"
             onClick={() => navigate("/login")}
           >
             Try ACUMEN for Business
