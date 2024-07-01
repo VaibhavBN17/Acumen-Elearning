@@ -76,7 +76,7 @@ const UserSlider = () => {
       <Container mt="100px" maxW="container.xxl" >
         <Flex direction="column" align="center" bg='#F7F3EA'>
           <Flex align="center" justify="space-between" mb={4}>
-            <Button colorScheme="blue" borderRadius={"50%"} onClick={handlePrevious}>
+            <Button colorScheme="orange" borderRadius={"50%"} onClick={handlePrevious}>
               <ArrowLeftIcon />
             </Button>
             <Box position="relative" p='2'>
@@ -108,7 +108,7 @@ const UserSlider = () => {
                 </Text>
               </Box>
             </Box>
-            <Button colorScheme="blue" borderRadius={"50%"} onClick={handleNext}>
+            <Button colorScheme="orange" borderRadius={"50%"} onClick={handleNext}>
               <ArrowRightIcon />
             </Button>
           </Flex>

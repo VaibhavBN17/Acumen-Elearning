@@ -36,7 +36,7 @@ const Section1 = () => {
           }}
           fontWeight="semibold"
         >
-          <Text fontSize='2rem' color="#f57003" display='inline'>ACUMEN</Text> Where Educators and Students Connect Seamlessly Online. Teachers craft personalized courses for various subjects and grades, while students explore and purchase courses tailored to their needs. Empowering both educators and learners, ACUMEN revolutionizes online education.
+          <Text fontSize='2rem' color="#f57003" display='inline'>ACUMEN VELOCITY</Text> Where Educators and Students Connect Seamlessly Online. Teachers craft personalized courses for various subjects and grades, while students explore and purchase courses tailored to their needs. Empowering both educators and learners, ACUMEN revolutionizes online education.
         </Text>
         <Flex
           gap={30}
@@ -75,7 +75,7 @@ const Section1 = () => {
             border="3px solid #f57003"
             onClick={() => navigate("/login")}
           >
-            Try ACUMEN for Business
+            Try ACUMEN VELOCITY for Business
           </Button>
         </Flex>
       </Flex>

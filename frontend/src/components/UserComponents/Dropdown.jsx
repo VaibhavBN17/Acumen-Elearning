@@ -74,9 +74,9 @@ const Dropdown = () => {
             color={"white"}
             variant="outline"
             _hover={{
-              bg: "white",
-              color: "#f57003",
-              border: "2px solid black",
+              bg: "#f74803",
+              color: "white",
+              // border: "2px solid black",
               cursor: "pointer",
             }}
           >
@@ -116,7 +116,7 @@ const Dropdown = () => {
                 <Button
                   fontSize="0.8rem"
                   p="1rem"
-                  colorScheme="blue"
+                  colorScheme="orange"
                   fontWeight={"bold"}
                   onClick={handleLogoutClick}
                 >

@@ -23,7 +23,7 @@ const UserDashboard = () => {
           textAlign="center"
           width="95%"
           margin="auto"
-          bgColor="blue.500"
+          bgColor="orange.500"
         >
           <Text
             style={{

@@ -385,7 +385,7 @@ const Footer = () => {
         <Box>
           {" "}
           <Text fontSize="13.5px">
-            © 2024 ACUMEN Inc. All rights reserved.
+            © 2024 ACUMEN VELOCITY Inc. All rights reserved.
           </Text>
         </Box>
         <Flex spacing={4} overflow='hidden'>
