@@ -21,9 +21,9 @@ const UserDashboard = () => {
           borderRadius="md"
           padding="4"
           textAlign="center"
-          width="95%"
+          width="90%"
           margin="auto"
-          bgColor="blue.500"
+          bgColor="#ff6600"
         >
           <Text
             style={{

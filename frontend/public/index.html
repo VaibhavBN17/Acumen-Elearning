@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -39,6 +40,51 @@
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join for Free Button</title>
+    <style>
+        .join-button {
+            display: inline-block;
+            padding: 10px 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .join-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        .join-button:active {
+            background-color: #004085;
+        }
+
+        /* Center the button container */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 5vh; /* Adjust as necessary */
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="{% url 'login' %}" class="join-button">Join for Free</a>
+    </div>
+</body>
+</html>
+
       You can add webfonts, meta tags, or analytics to this file.
       The build step will place the bundled scripts into the <body> tag.
 
@@ -47,3 +93,5 @@
     -->
   </body>
 </html>
+
+
