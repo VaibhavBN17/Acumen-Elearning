@@ -52,7 +52,7 @@ const Section6 = () => {
             lg: "45 px",
           }}
         >
-          Learner outcomes on <b style={{ color: "#f57003" }}>ACUMEN</b>
+          Learner outcomes on <b style={{ color: "#f57003" }}>ACUMEN VELOCITY</b>
         </Text>
         <Text
           fontFamily={"poppins"}

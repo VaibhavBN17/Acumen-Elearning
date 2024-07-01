@@ -9,6 +9,7 @@ import {
   Link,
   useDisclosure,
   useToast,
+  color,
 } from "@chakra-ui/react";
 import { FaSearch, FaBars } from "react-icons/fa";
 import Dropdown from "./Dropdown";
@@ -68,7 +69,7 @@ const Navbar = () => {
               _hover={{ cursor: "pointer" }}
               onClick={home}
             >
-              ACUMEN 
+              ACUMEN VELOCITY
             </Text>
           </Box>
         </Flex>
@@ -96,6 +97,7 @@ const Navbar = () => {
               color="white"
               borderRightRadius="7px"
               borderRadius="0px 10px 10px 0px"
+              _hover={{ background: "#f74803" }}
             />
           </Flex>
         ) : (

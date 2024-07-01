@@ -109,7 +109,7 @@ export function NavBarDrawer({ isOpen, onClose }) {
                 color="#f57003"
                 _hover={{ cursor: "pointer" }}
               >
-                ACUMEN
+                ACUMEN VELOCITY
               </Text>
             </Link>
             <Box>
