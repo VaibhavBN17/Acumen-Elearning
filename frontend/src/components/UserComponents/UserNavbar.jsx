@@ -68,7 +68,7 @@ const Navbar = () => {
               _hover={{ cursor: "pointer" }}
               onClick={home}
             >
-              ACUMEN 
+              ACUMEN VELOCITY
             </Text>
           </Box>
         </Flex>

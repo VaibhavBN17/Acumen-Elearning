@@ -15,7 +15,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { patchProduct, patchUser } from "../../Redux/AdminReducer/action";
 
-const EditUser = () => {
+const  EditUser = () => {
   const backgroundImageUrl =
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5-K0r9nPZU1CVVkRP6H-MB2LZEc0pFHmZLA&usqp=CAU";
   const { id } = useParams();
@@ -56,7 +56,7 @@ const EditUser = () => {
         <Flex
           align="center"
           justify="center"
-          border={"2px solid white"}
+          //border={"2px solid black"}
           borderRadius={10}
           className="background"
           style={{
@@ -67,7 +67,7 @@ const EditUser = () => {
             width: "100%",
             height: "300px",
           }}
-          color={"white"}
+         
           fontWeight={"bold"}
         >
           <Box width={["100%", "80%", "60%", "40%"]} p={4}>

@@ -82,12 +82,13 @@ import {
               <FormLabel>Price</FormLabel>
               <Input
                 type="number"
-                placeholder="Enter Course price"
+                placeholder="Enter course price"
                 name="price"
-                value={Number(detail.price)}
+                value={detail.price ? Number(detail.price) : ''}
                 onChange={handleChange}
               />
             </FormControl>
+            
             <FormControl mt={4}>
               <FormLabel>Thumbnail</FormLabel>
               <Input
@@ -98,7 +99,7 @@ import {
                 onChange={handleChange}
               />
             </FormControl>
-            <Button
+            <Button 
               mt={4}
               colorScheme="blue"
               size="md"

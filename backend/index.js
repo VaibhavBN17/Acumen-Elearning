@@ -46,7 +46,7 @@ app.get("/regenerateToken", (req, res) => {
 
 app.get('/',(req,res)=>{
   try{
-    res.status(200).json({message:"Welcome to SRM's Backend"})
+    res.status(200).json({message:"Welcome to Acumen's Backend"})
   }catch(err){
     res.status(400).json({ message: "Some Error Occur. Please Refresh" });
   }

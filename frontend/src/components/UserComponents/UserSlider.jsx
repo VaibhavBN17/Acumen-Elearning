@@ -33,12 +33,12 @@ const UserSlider = () => {
   ];
 
   const indexDescription = [
-    "ACUMEN encourages collaborative group studies, creating a vibrant learning environment where students can connect and learn together. It offers a versatile platform for educators to share their knowledge, helping students excel academically.",
-    "Secure your degree from renowned institutes with ACUMEN's comprehensive education solutions. ACUMEN provides access to globally recognized institutions, ensuring students receive quality education and gain valuable qualifications for their future careers.",
-    "ACUMEN unlocks access to prestigious educational institutions, elevating your academic journey to new heights. With ACUMEN, you can explore a world of educational opportunities, expanding your knowledge and skills in various fields.",
-    "Experience dynamic online classes on ACUMEN's intuitive platform, tailored to modern learners' needs. ACUMEN's user-friendly interface and interactive features make online learning engaging and effective, helping students succeed in today's digital age.",
-    "Access meticulously crafted study notes on ACUMEN to enhance your understanding and retention of course materials. ACUMEN's comprehensive study resources empower students to excel in their studies and gain a deeper understanding of their subjects.",
-    "ACUMEN is your gateway to a successful career, offering the knowledge and skills needed for professional excellence. With ACUMEN, you can prepare for a bright future and achieve your career goals through high-quality education and training."
+    "Acumen Velocity encourages collaborative group studies, creating a vibrant learning environment where students can connect and learn together. It offers a versatile platform for educators to share their knowledge, helping students excel academically.",
+    "Secure your degree from renowned institutes with Acumen Velocity's comprehensive education solutions. Acumen Velocity provides access to globally recognized institutions, ensuring students receive quality education and gain valuable qualifications for their future careers.",
+    "Acumen Velocity unlocks access to prestigious educational institutions, elevating your academic journey to new heights. With Acumen Velocity, you can explore a world of educational opportunities, expanding your knowledge and skills in various fields.",
+    "Experience dynamic online classes on Acumen Velocity's intuitive platform, tailored to modern learners' needs. Acumen Velocity's user-friendly interface and interactive features make online learning engaging and effective, helping students succeed in today's digital age.",
+    "Access meticulously crafted study notes on Acumen Velocity to enhance your understanding and retention of course materials. Acumen Velocity's comprehensive study resources empower students to excel in their studies and gain a deeper understanding of their subjects.",
+    "Acumen Velocity is your gateway to a successful career, offering the knowledge and skills needed for professional excellence. With Acumen Velocity, you can prepare for a bright future and achieve your career goals through high-quality education and training."
   ];
   
   

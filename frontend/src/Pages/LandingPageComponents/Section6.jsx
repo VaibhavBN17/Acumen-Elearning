@@ -52,7 +52,7 @@ const Section6 = () => {
             lg: "45 px",
           }}
         >
-          Learner outcomes on <b style={{ color: "#f57003" }}>ACUMEN</b>
+          Learner outcomes on <b style={{ color: "#f57003" }}>ACUMEN VELOCITY</b>
         </Text>
         <Text
           fontFamily={"poppins"}
@@ -62,10 +62,10 @@ const Section6 = () => {
             lg: "16px",
           }}
         >
-          According to the latest findings from ACUMEN's 2024 report,{" "}
+          According to the latest findings from ACUMEN VELOCITY'S 2024 report,{" "}
           <span>
             <b>an impressive 87% of learners have reported tangible career benefits.</b>
-          </span> These include promotions, enhanced job performance, successful job transitions, increased employability, and skill development. ACUMEN's extensive curriculum and industry-recognized certifications have played a pivotal role in facilitating the professional growth of learners, equipping them to thrive in today's fiercely competitive job landscape."
+          </span> These include promotions, enhanced job performance, successful job transitions, increased employability, and skill development. ACUMEN VELOCITY's extensive curriculum and industry-recognized certifications have played a pivotal role in facilitating the professional growth of learners, equipping them to thrive in today's fiercely competitive job landscape."
         </Text>
         <Flex mt='15px' >
           <Button

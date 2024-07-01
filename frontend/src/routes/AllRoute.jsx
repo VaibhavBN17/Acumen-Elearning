@@ -162,7 +162,7 @@ const AllRoute = () => {
         element={
           <PrivateRoutes>
            <AdminRoute>
-           <AddUser />
+           <AddUser /> 
            </AdminRoute>
           </PrivateRoutes>
         }
@@ -171,7 +171,7 @@ const AllRoute = () => {
         path="/admin/users/edit/:id"
         element={
           <PrivateRoutes>
-            <AdminRoute>
+            <AdminRoute>  
             <EditUser />
             </AdminRoute>
           </PrivateRoutes>
