@@ -183,7 +183,7 @@ export function NavBarDrawer({ isOpen, onClose }) {
             {/* personlized settings  */}
             {/* teacher options  */}
             {userStore?.role === "admin" && (
-              <Box p="0.5rem 0" borderTop="1px solid #3A3F3F">
+              <Box p="0.5rem 0" borderTop="1px solid #3A3F3F" className="">
                 <Box>
                   <Link to="/profile">
                     <Text fontSize="0.8rem" p="1rem 0">
@@ -245,6 +245,7 @@ export function NavBarDrawer({ isOpen, onClose }) {
                     >
                       Statistics
                     </Text>
+                    
                   </Link>
                   <Link to="/admin/setting">
                     <Text
@@ -253,9 +254,16 @@ export function NavBarDrawer({ isOpen, onClose }) {
                       Settings
                     </Text>
                   </Link>
+                  <Link to="/admin/quiz">
+                    <Text
+                      fontSize="0.8rem" p="1rem 0"
+                    >
+                      Quiz
+                    </Text>
+                  </Link>
                 </Box>
               </Box>
-            ) }
+            )}
 
             {/*teacher options  */}
             {userStore?.role==='teacher' && (

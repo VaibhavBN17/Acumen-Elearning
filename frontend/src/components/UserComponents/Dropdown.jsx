@@ -249,6 +249,15 @@ const Dropdown = () => {
                     Settings
                   </MenuItem>
                 </Link>
+                <Link to="/admin/quiz">
+                  <MenuItem
+                    p="0.7rem 0"
+                    fontWeight="500"
+                    borderTop="1px solid #D7DBDD"
+                  >
+                    Quiz
+                  </MenuItem>
+                </Link>
               </Box>
             )}
 
